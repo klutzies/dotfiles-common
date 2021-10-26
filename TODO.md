@@ -1,9 +1,12 @@
 GLOBAL:
 - Add this repository as a submodule
-- Copy dotfiles (gitconfig, gitignore) and other preferences to respective folders via independent scripts in each OS-specific repository
+
+- Copy/Symlink dotfiles (gitconfig, gitignore, etc.) and other preferences into respective folders via independent scripts in each OS-specific repository
+
 - (some) Microsoft Edge settings
     - Default search engine
     - ...?
+
 - Automate Discord (per OS, but keep prefs here)
   - Disable sticker suggestions
   - Canary
