@@ -1,14 +1,16 @@
 GLOBAL:
+
 - Add this repository as a submodule
 
 - Copy/Symlink dotfiles (gitconfig, gitignore, etc.) and other preferences into respective folders via independent scripts in each OS-specific repository
 
-- (some) Microsoft Edge settings
-    - Default search engine
-    - ...?
+- "AutoScroll" Chrome extension
+    - Move speed: 5
 
 - Automate Discord (per OS, but keep prefs here)
   - Disable sticker suggestions
+  - Disable "Streamer Mode"
+  - Don't open on startup
   - Canary
   - Powercord
   - Plugins:
@@ -24,3 +26,77 @@ GLOBAL:
         - Spotify Modal
   - Themes:
     - Dark Discord: https://github.com/snappercord/dark-discord
+
+- DuckDuckGo settings
+    - Safe search: OFF
+    - General
+        - Advertisements: OFF
+        - Install DuckDuckGo: OFF
+        - Privacy Newsletters: OFF (both)
+        - Homepage Privacy Tips: OFF
+        - Help Improve DuckDuckGo: OFF
+    - Privacy
+        - Redirect (When Necessary): OFF
+
+- Microsoft Edge settings
+    - First startup: Do not share info with Microsoft
+    - Profiles
+        - Sync
+            - Favorites: ON
+            - Settings: ON
+            - Basic info: OFF
+            - Passwords: OFF
+            - History: ON
+            - Open tabs: OFF
+            - Extensions: ON
+            - Collections: OFF
+            - Payments: OFF
+        - Personal info
+            - Save and fill basic info: OFF
+            - Save and fill custom info: OFF
+        - Passwords
+            - Offer to save passwords: OFF
+            - Show the "Reveal password" button in password fields: ON
+        - Save and fill payment info: OFF
+    - Privacy, search, and services
+        - Send "Do Not Track" requests: OFF
+        - Allow sites to check if you have payment methods saved: OFF
+        - Optional diagnostic data: OFF
+        - Personalize your web experience: OFF
+        - Microsoft Defender SmartScreen: ON
+        - Block potentially unwanted apps: ON
+        - Use secure DNS to seecify how to lookup the network address for websites: ON (Use current service provider)
+        - Use a web service to help resolve navigation errors: OFF
+        - Suggest similar sites when a website can't be found: OFF
+        - Show suggestions from Pinterest in Collections: OFF
+        - Save time and money with Shopping in Microsoft Edge: ON
+        - Address bar and search
+            - Show me search and site suggestions using my typed characters: ON
+            - Show me suggestions from history, favorites and other data on this device using my typed characters: ON
+            - Search engine used in the address bar: DuckDuckGo
+            - Search on new tabs uses search box or address bar: ADDRESS BAR
+    - Appearance
+        - Overall appearance: DARK
+        - Theme: DEFAULT
+        - Select which buttons to show on the toolbar
+            - Home: OFF
+            - Extensions: ON
+            - Favorites: ON
+            - Collections: OFF
+            - History: ON
+            - Downloads: ON
+            - Web capture: OFF
+            - Share: OFF
+            - Feedback: OFF
+    - Start, home, and new tabs
+        - Customize your new tab page layout and content
+            - Page layout: Custom
+            - Quick links: OFF
+            - Show greeting: OFF
+            - Background: OFF
+            - Content: OFF
+        - Preload the new tab page for a faster experience: OFF
+    - Default browser: MAKE DEFAULT
+    - System
+        - Continue running background extentions and apps when Microsoft Edge is closed: OFF
+    - Everything else: defaults, probably
