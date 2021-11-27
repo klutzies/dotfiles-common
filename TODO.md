@@ -7,6 +7,8 @@ GLOBAL:
 - "AutoScroll" Chrome extension
     - Move speed: 5
 
+- Sublime Text: Close all files on exit (can recovery via menu or CTRL-SHIFT-T (probably))
+
 - Automate Discord (per OS, but keep prefs here)
   - Disable sticker suggestions
   - Disable "Streamer Mode"
@@ -65,11 +67,12 @@ GLOBAL:
         - Personalize your web experience: OFF
         - Microsoft Defender SmartScreen: ON
         - Block potentially unwanted apps: ON
-        - Use secure DNS to seecify how to lookup the network address for websites: ON (Use current service provider)
+        - Use secure DNS to specify how to lookup the network address for websites: ON (Use current service provider)
         - Use a web service to help resolve navigation errors: OFF
         - Suggest similar sites when a website can't be found: OFF
         - Show suggestions from Pinterest in Collections: OFF
         - Save time and money with Shopping in Microsoft Edge: ON
+        - Show travel recommendations in Microsoft Edge: OFF
         - Address bar and search
             - Show me search and site suggestions using my typed characters: ON
             - Show me suggestions from history, favorites and other data on this device using my typed characters: ON
@@ -78,13 +81,16 @@ GLOBAL:
     - Appearance
         - Overall appearance: DARK
         - Theme: DEFAULT
+        - Page zoom: (choice)
         - Select which buttons to show on the toolbar
             - Home: OFF
-            - Extensions: ON
+            - Extensions: SHOW AUTOMATICALLY
             - Favorites: ON
             - Collections: OFF
             - History: ON
             - Downloads: ON
+            - Performance: OFF
+            - Microsoft Rewards: OFF
             - Web capture: OFF
             - Share: OFF
             - Feedback: OFF
@@ -97,6 +103,6 @@ GLOBAL:
             - Content: OFF
         - Preload the new tab page for a faster experience: OFF
     - Default browser: MAKE DEFAULT
-    - System
+    - System and performance
         - Continue running background extentions and apps when Microsoft Edge is closed: OFF
     - Everything else: defaults, probably
