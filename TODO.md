@@ -10,24 +10,24 @@ GLOBAL:
 - Sublime Text: Close all files on exit (can recovery via menu or CTRL-SHIFT-T (probably))
 
 - Automate Discord (per OS, but keep prefs here)
-  - Disable sticker suggestions
-  - Disable "Streamer Mode"
-  - Don't open on startup
-  - Canary
-  - Powercord
-  - Plugins:
-    - Install:
-        - Plugin Downloader: https://github.com/LandenStephenss/PowercordPluginDownloader
-        - Theme Downloader: https://github.com/ploogins/PowercordThemeDownloader
-        - Theme Toggler: https://github.com/redstonekasi/theme-toggler
-    - Disable:
-        - Hastebin
-        - Heygirl
-        - LMGTFY
-        - Mock
-        - Spotify Modal
-  - Themes:
-    - Dark Discord: https://github.com/snappercord/dark-discord
+    - Disable sticker suggestions
+    - Disable "Streamer Mode"
+    - Don't open on startup
+    - Canary
+    - Powercord
+    - Plugins:
+        - Install:
+            - Plugin Downloader: https://github.com/LandenStephenss/PowercordPluginDownloader
+            - Theme Downloader: https://github.com/ploogins/PowercordThemeDownloader
+            - Theme Toggler: https://github.com/redstonekasi/theme-toggler
+        - Disable:
+            - Hastebin
+            - Heygirl
+            - LMGTFY
+            - Mock
+            - Spotify Modal
+    - Themes:
+        - Dark Discord: https://github.com/snappercord/dark-discord
 
 - DuckDuckGo settings
     - Safe search: OFF
