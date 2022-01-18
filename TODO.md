@@ -27,7 +27,7 @@ GLOBAL:
             - Mock
             - Spotify Modal
     - Themes:
-        - Dark Discord: https://github.com/snappercord/dark-discord
+        - Dark Discord: https://github.com/slow/dark-discord
 
 - DuckDuckGo settings
     - Safe search: OFF
