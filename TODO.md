@@ -26,8 +26,10 @@ GLOBAL:
             - LMGTFY
             - Mock
             - Spotify Modal
+            - Tags
     - Themes:
-        - Dark Discord: https://github.com/slow/dark-discord
+        - ~~Dark Discord: https://github.com/slow/dark-discord~~
+        - ...
 
 - DuckDuckGo settings
     - Safe search: OFF
