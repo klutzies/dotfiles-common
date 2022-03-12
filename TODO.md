@@ -1,4 +1,10 @@
-GLOBAL:
+- microsoft edge (update settings docs in general)
+    - "privacy, search, and services"
+        - "security"
+            - "enable security mitigations for a more secure browser experience": "strict"
+        - "services"
+            - "save time and money with shopping in microsoft edge": OFF
+    - disable "discover" button (only becomes available after setup!?)
 
 - Add this repository as a submodule
 
@@ -18,6 +24,7 @@ GLOBAL:
     - Plugins:
         - Install:
             - Plugin Downloader: https://github.com/LandenStephenss/PowercordPluginDownloader
+            - PronounDB: https://github.com/cyyynthia/pronoundb-powercord
             - Theme Downloader: https://github.com/ploogins/PowercordThemeDownloader
             - Theme Toggler: https://github.com/redstonekasi/theme-toggler
         - Disable:
@@ -28,8 +35,7 @@ GLOBAL:
             - Spotify Modal
             - Tags
     - Themes:
-        - ~~Dark Discord: https://github.com/slow/dark-discord~~
-        - ...
+        - Dark Discord: https://github.com/discord-modifications/dark-discord
 
 - DuckDuckGo settings
     - Safe search: OFF
