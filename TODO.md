@@ -1,3 +1,9 @@
+- once git key is established:
+    - git remote set-url origin...
+        - git@github.com:unilock/dotfiles-linux.git
+        - git@github.com:unilock/dotfiles-common.git
+    - git checkout main (in each repo ^)
+
 - microsoft edge (update settings docs in general)
     - "privacy, search, and services"
         - "security"
@@ -5,6 +11,13 @@
         - "services"
             - "save time and money with shopping in microsoft edge": OFF
     - disable "discover" button (only becomes available after setup!?)
+    - clear browsing data (all time) as necessary
+    - visual search: no icon on image hover
+    - new tab page: no new tab tips (under "advanced")
+    - cookies and site data
+        - block third-party cookies: on
+        - preload pages: off
+    - disable "sleeping tabs" (not necessary and would probably be annoying)
 
 - Add this repository as a submodule
 
