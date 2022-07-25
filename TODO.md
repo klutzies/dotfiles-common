@@ -4,7 +4,7 @@
         - git@github.com:unilock/dotfiles-common.git
     - git checkout main (in each repo ^)
 
-- microsoft edge (update settings docs in general)
+- microsoft edge (update settings docs in general + duckduckgo)
     - "privacy, search, and services"
         - "security"
             - "enable security mitigations for a more secure browser experience": "strict"
@@ -26,29 +26,38 @@
 - "AutoScroll" Chrome extension
     - Move speed: 5
 
-- Sublime Text: Close all files on exit (can recovery via menu or CTRL-SHIFT-T (probably))
+- Sublime Text: Close all files on exit (can recover via menu or CTRL-SHIFT-T (probably))
 
 - Automate Discord (per OS, but keep prefs here)
-    - Disable sticker suggestions
-    - Disable "Streamer Mode"
-    - Don't open on startup
     - Canary
     - Powercord
-    - Plugins:
-        - Install:
-            - Plugin Downloader: https://github.com/LandenStephenss/PowercordPluginDownloader
-            - PronounDB: https://github.com/cyyynthia/pronoundb-powercord
-            - Theme Downloader: https://github.com/ploogins/PowercordThemeDownloader
-            - Theme Toggler: https://github.com/redstonekasi/theme-toggler
-        - Disable:
-            - Hastebin
-            - Heygirl
-            - LMGTFY
-            - Mock
-            - Spotify Modal
-            - Tags
-    - Themes:
-        - Dark Discord: https://github.com/discord-modifications/dark-discord
+    - (Settings)
+        - APP SETTINGS
+            - Appearance
+                - ZOOM LEVEL: 110%
+            - Accessibility
+                - CHAT INPUT
+                    - Show Send Message button: ON
+            - Text & Images
+                - STICKERS
+                    - Sticker Suggestions: OFF
+            - Keybinds
+                - Toggle Mute : CTRL + ALT 
+            - Streamer Mode
+                - Automatically Enable/Disable: OFF
+            - Plugins
+                - Disable:
+                    - Hastebin
+                    - Heygirl
+                    - LMGTFY
+                    - Mock
+                    - Spotify Modal
+                    - Tags
+                - Install: 
+                    - PronounDB: https://github.com/cyyynthia/pronoundb-powercord
+            - Themes
+                - Install:
+                    - Dark Discord: https://github.com/discord-modifications/dark-discord
 
 - DuckDuckGo settings
     - Safe search: OFF
