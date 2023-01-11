@@ -1,0 +1,14 @@
+// Settings in here override those in "TrailingSpaces/trailing_spaces.sublime-settings"
+
+{
+    // By default, the line being currently edited will have its trailing
+    // spaces highlighted.
+    // Set to false to ignore trailing spaces on the edited line.
+    "include_current_line" : false,
+
+    // By default, trailing spaces are deleted within the whole document.
+    // Set to true to affect only the lines you edited since last save.
+    // Trailing spaces will still be searched for and highlighted in the whole
+    // document.
+    "modified_lines_only": true,
+}
