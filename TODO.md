@@ -1,63 +1,79 @@
-- once git key is established:
+- Once git key is established:
     - git remote set-url origin...
         - git@github.com:unilock/dotfiles-linux.git
         - git@github.com:unilock/dotfiles-common.git
     - git checkout main (in each repo ^)
 
-- microsoft edge (update settings docs in general + duckduckgo)
-    - "privacy, search, and services"
-        - "security"
-            - "enable security mitigations for a more secure browser experience": "strict"
-        - "services"
-            - "save time and money with shopping in microsoft edge": OFF
-    - disable "discover" button (only becomes available after setup!?)
-    - clear browsing data (all time) as necessary
-    - visual search: no icon on image hover
-    - new tab page: no new tab tips (under "advanced")
-    - cookies and site data
-        - block third-party cookies: on
-        - preload pages: off
-    - disable "sleeping tabs" (not necessary and would probably be annoying)
-
-- Add this repository as a submodule
-
-- Copy/Symlink dotfiles (gitconfig, gitignore, etc.) and other preferences into respective folders via independent scripts in each OS-specific repository
+- Symlink dotfiles (gitconfig, gitignore, etc.) and other preferences into respective folders via independent scripts in each OS-specific repository
 
 - "AutoScroll" Chrome extension
     - Move speed: 5
 
-- Sublime Text: Close all files on exit (can recover via menu or CTRL-SHIFT-T (probably))
+- Discord (per OS, but keep prefs here)
+    - OpenAsar: https://openasar.dev
+        - Themes:
+        - ```
+          @import url(https://discord-modifications.github.io/dark-discord/src/source.css);
+          @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
+          ```
+    - Vencord: https://github.com/Vencord/Installer
+        - AnonymiseFileNames
+            - Anonymising method: RANDOM
+            - Random characters length: 7
+            - Consistent filename: N/A
+        - BetterGifAltText
+        - BetterNotesBox
+            - Hide notes: ENABLED
+            - Disable spellcheck in notes: N/A
+        - BlurNSFW
+            - Blur amount: 10
+        - ClearURLs
+        - EmoteCloner
+        - ForceOwnerCrown
+        - FxTwitter
+        - iLoveSpam
+        - MemberCount
+        - MessageLinkEmbeds
+            - Background color for messages in rich embeds: DISABLED
+            - Use automod embeds instead of rich embeds: NEVER
+        - MessageLogger
+            - The style of deleted messages: RED OVERLAY
+            - Whether to ignore messages by bots: ENABLED
+            - Whether to ignore messages by yourself: ENABLED
+        - NoCanaryMessageLinks
+            - The subdomain for your Discord message links: N/A
+            - Always use discord.com host (replace discordapp.com): ENABLED
+        - NoReplyMention
+            - List of users to exempt from this plugin (separated by commas): N/A
+        - NoUnblockToJump
+        - PlatformIndicators
+            - Show indicators in the member list: ENABLED
+            - Show indicators in user profiles, as badges: ENABLED
+            - Show indicators inside messages: ENABLED
+        - PronounDB
+            - The format for pronouns to appear in chat: LOWERCASE
+            - Enable or disable showing pronouns for the current user: ENABLED
+        - QuickMention
+        - ReverseImageSearch
+        - ShikiCodeblocks
+            - Default themes: MONOKAI
+            - A link to a custom VSCode theme: N/A
+            - Use the more lightweight default Discord highlighter and theme: PREFER SHIKI
+            - How to show language icons on codeblocks: COLORLESS
+            - Background opacity: 100
+        - SortFriendRequests
+            - Show dates on friend requests: DISABLED
+        - ViewIcons
+        - ViewRaw
+        - VoiceChatDoubleClick
+        - VolumeBooster
+        - WebContextMenus
+        - WhoReacted
 
-- Automate Discord (per OS, but keep prefs here)
-    - Canary
-    - Powercord
-    - (Settings)
-        - APP SETTINGS
-            - Appearance
-                - ZOOM LEVEL: 110%
-            - Accessibility
-                - CHAT INPUT
-                    - Show Send Message button: ON
-            - Text & Images
-                - STICKERS
-                    - Sticker Suggestions: OFF
-            - Keybinds
-                - Toggle Mute : CTRL + ALT 
-            - Streamer Mode
-                - Automatically Enable/Disable: OFF
-            - Plugins
-                - Disable:
-                    - Hastebin
-                    - Heygirl
-                    - LMGTFY
-                    - Mock
-                    - Spotify Modal
-                    - Tags
-                - Install: 
-                    - PronounDB: https://github.com/cyyynthia/pronoundb-powercord
-            - Themes
-                - Install:
-                    - Dark Discord: https://github.com/discord-modifications/dark-discord
+- IntelliJ prefs
+
+- Vivaldi: Should be synced for the most part, but IIRC there are some platform-specific settings - document in respecitve OS dotfiles as they're found
+
 
 - DuckDuckGo settings
     - Safe search: OFF
@@ -69,70 +85,3 @@
         - Help Improve DuckDuckGo: OFF
     - Privacy
         - Redirect (When Necessary): OFF
-
-- Microsoft Edge settings
-    - First startup: Do not share info with Microsoft
-    - Profiles
-        - Sync
-            - Favorites: ON
-            - Settings: ON
-            - Basic info: OFF
-            - Passwords: OFF
-            - History: ON
-            - Open tabs: OFF
-            - Extensions: ON
-            - Collections: OFF
-            - Payments: OFF
-        - Personal info
-            - Save and fill basic info: OFF
-            - Save and fill custom info: OFF
-        - Passwords
-            - Offer to save passwords: OFF
-            - Show the "Reveal password" button in password fields: ON
-        - Save and fill payment info: OFF
-    - Privacy, search, and services
-        - Send "Do Not Track" requests: OFF
-        - Allow sites to check if you have payment methods saved: OFF
-        - Optional diagnostic data: OFF
-        - Personalize your web experience: OFF
-        - Microsoft Defender SmartScreen: ON
-        - Block potentially unwanted apps: ON
-        - Use secure DNS to specify how to lookup the network address for websites: ON (Use current service provider)
-        - Use a web service to help resolve navigation errors: OFF
-        - Suggest similar sites when a website can't be found: OFF
-        - Show suggestions from Pinterest in Collections: OFF
-        - Save time and money with Shopping in Microsoft Edge: ON
-        - Show travel recommendations in Microsoft Edge: OFF
-        - Address bar and search
-            - Show me search and site suggestions using my typed characters: ON
-            - Show me suggestions from history, favorites and other data on this device using my typed characters: ON
-            - Search engine used in the address bar: DuckDuckGo
-            - Search on new tabs uses search box or address bar: ADDRESS BAR
-    - Appearance
-        - Overall appearance: DARK
-        - Theme: DEFAULT
-        - Page zoom: (choice)
-        - Select which buttons to show on the toolbar
-            - Home: OFF
-            - Extensions: SHOW AUTOMATICALLY
-            - Favorites: ON
-            - Collections: OFF
-            - History: ON
-            - Downloads: ON
-            - Performance: OFF
-            - Microsoft Rewards: OFF
-            - Web capture: OFF
-            - Share: OFF
-            - Feedback: OFF
-    - Start, home, and new tabs
-        - Customize your new tab page layout and content
-            - Page layout: Custom
-            - Quick links: OFF
-            - Show greeting: OFF
-            - Background: OFF
-            - Content: OFF
-        - Preload the new tab page for a faster experience: OFF
-    - Default browser: MAKE DEFAULT
-    - System and performance
-        - Continue running background extentions and apps when Microsoft Edge is closed: OFF
-    - Everything else: defaults, probably
