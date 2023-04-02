@@ -1,6 +1,6 @@
 - Once git key is established:
     - git remote set-url origin...
-        - git@github.com:unilock/dotfiles-linux.git
+        - git@github.com:unilock/dotfiles-<platform>.git
         - git@github.com:unilock/dotfiles-common.git
     - git checkout main (in each repo ^)
 
@@ -10,64 +10,71 @@
     - Move speed: 5
 
 - Discord (per OS, but keep prefs here)
-    - OpenAsar: https://openasar.dev
-        - Themes:
-        - ```
-          @import url(https://discord-modifications.github.io/dark-discord/src/source.css);
-          @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
-          ```
+    - Themes:
+    - ```
+      @import url(https://discord-modifications.github.io/dark-discord/src/source.css);
+      @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
+      ```
     - Vencord: https://github.com/Vencord/Installer
-        - AnonymiseFileNames
-            - Anonymising method: RANDOM
-            - Random characters length: 7
-            - Consistent filename: N/A
+        - AlwaysTrust
         - BetterGifAltText
-        - BetterNotesBox
-            - Hide notes: ENABLED
-            - Disable spellcheck in notes: N/A
         - BlurNSFW
-            - Blur amount: 10
+            - BLUR: 10
         - ClearURLs
+        - CrashHandler
+            - PREVENT CRASHES: Enabled
+            - NAVIGATE TO HOME: Disabled
         - EmoteCloner
+        - Experiments
+            - ISSTAFF: Disabled
+            - STAGING BANNER: Disabled
         - ForceOwnerCrown
         - FxTwitter
         - iLoveSpam
         - MemberCount
+        - MessageClickActions
+            - DELETE: Disabled
+            - EDIT: Enabled
         - MessageLinkEmbeds
-            - Background color for messages in rich embeds: DISABLED
-            - Use automod embeds instead of rich embeds: NEVER
+            - BG COLOR: Disabled
+            - AUTOMOD EMBEDS: Never
         - MessageLogger
-            - The style of deleted messages: RED OVERLAY
-            - Whether to ignore messages by bots: ENABLED
-            - Whether to ignore messages by yourself: ENABLED
+            - STYLE: Red overlay
+            - IGNORE BOTS: Enabled
+            - IGNORE SELF: Enabled
+        - MuteNewGuild
         - NoCanaryMessageLinks
-            - The subdomain for your Discord message links: N/A
-            - Always use discord.com host (replace discordapp.com): ENABLED
-        - NoReplyMention
-            - List of users to exempt from this plugin (separated by commas): N/A
+            - SUBDOMAIN: (empty)
+            - USE DISCORD.COM: Enabled
         - NoUnblockToJump
         - PlatformIndicators
-            - Show indicators in the member list: ENABLED
-            - Show indicators in user profiles, as badges: ENABLED
-            - Show indicators inside messages: ENABLED
+            - MEMBER LIST: Enabled
+            - USER PROFILES: Enabled
+            - MESSAGES: Enabled
+            - MOBILE MATCH STATUS: Enabled
         - PronounDB
-            - The format for pronouns to appear in chat: LOWERCASE
-            - Enable or disable showing pronouns for the current user: ENABLED
+            - FORMAT: Lowercase
+            - CURRENT USER: Enabled
+            - MESSAGES: Enabled
+            - PROFILE: Enabled
         - QuickMention
         - ReverseImageSearch
         - ShikiCodeblocks
-            - Default themes: MONOKAI
-            - A link to a custom VSCode theme: N/A
-            - Use the more lightweight default Discord highlighter and theme: PREFER SHIKI
-            - How to show language icons on codeblocks: COLORLESS
-            - Background opacity: 100
+            - THEME: Monokai
+            - DISCORD HIGHLIGHTER: Prefer Shiki
+            - ICONS: Colorless
+            - OPACITY: 100%
         - SortFriendRequests
-            - Show dates on friend requests: DISABLED
+            - SHOW DATES: Enabled
+        - TypingTweaks
+            - AVATARS: Enabled
+            - ROLE COLORS: Enabled
+            - SEVERAL USERS TYPING: Enabled
         - ViewIcons
         - ViewRaw
         - VoiceChatDoubleClick
         - VolumeBooster
-        - WebContextMenus
+            - MULTIPLIER: 2
         - WhoReacted
 
 - IntelliJ prefs
