@@ -7,8 +7,10 @@
 	[
 		"FileDiffs",
 		"HTMLBeautify",
+		"INI",
 		"Package Control",
 		"Pretty JSON",
+		"Theme - Monokai Pro",
 		"TOML",
 		"TrailingSpaces",
 	],

@@ -1,0 +1,27 @@
+{
+    "working_dir": "$folder",
+
+    "variants":
+    [
+        {
+            "name": "Assemble Mod for Release",
+            "shell_cmd": "./buildsystem.sh assemble-release"
+        },
+        {
+            "name": "Build",
+            "shell_cmd": "./buildsystem.sh build-all"
+        },
+        {
+            "name": "Select Project",
+            "shell_cmd": "./buildsystem.sh select-project"
+        },
+        {
+            "name": "Import Project",
+            "shell_cmd": "./buildsystem.sh import-project"
+        },
+        {
+            "name": "Check for Updates",
+            "shell_cmd": "./buildsystem.sh update-toolchain"
+        }
+    ]
+}

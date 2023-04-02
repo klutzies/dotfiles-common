@@ -8,13 +8,22 @@
     // versions of Sublime Text used "smooth" by default.
     "caret_style": "smooth",
 
+    // Set to false to disable scrolling past the end of the buffer.
+    // On Mac, this value is overridden in the platform specific settings, so
+    // you'll need to place this line in your user settings to override it.
+    //
+    // This setting may also be set to a number between 0.0 and 1.0 to specify
+    // how much scrolling past the end of the buffer should be allowed. 0.5
+    // scrolls halfway and 0.0 is the same as false.
+    "scroll_past_end": true,
+
     // Sets the colors used within the text area.
     // The value "auto" will switch between the "light_color_scheme" and
     // "dark_color_scheme" based on the operating system appearance.
-    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+    "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
 
     // Set to false to disable detection of tabs vs. spaces on load
-    "detect_indentation": false,
+    "detect_indentation": true,
 
     // Set to true to ensure the last line of the file ends in a newline
     // character when saving
@@ -41,4 +50,11 @@
 
     // Set to true to insert spaces when tab is pressed
     "translate_tabs_to_spaces": true,
+
+    // List any packages to ignore here. When removing entries from this list,
+    // a restart may be required if the package contains plugins.
+    "ignored_packages": ["Vintage"],
+    "theme": "auto",
+    "dark_theme": "Default Dark.sublime-theme",
+    "light_theme": "Default.sublime-theme",
 }
