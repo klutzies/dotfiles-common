@@ -1,60 +1,70 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-    // Enable auto complete to be triggered automatically when typing.
-    "auto_complete": false,
 
-    // Valid values are "smooth", "phase", "blink" and "solid". Previous
-    // versions of Sublime Text used "smooth" by default.
-    "caret_style": "smooth",
+	// Enable auto complete to be triggered automatically when typing.
+	"auto_complete": false,
 
-    // Set to false to disable scrolling past the end of the buffer.
-    // On Mac, this value is overridden in the platform specific settings, so
-    // you'll need to place this line in your user settings to override it.
-    //
-    // This setting may also be set to a number between 0.0 and 1.0 to specify
-    // how much scrolling past the end of the buffer should be allowed. 0.5
-    // scrolls halfway and 0.0 is the same as false.
-    "scroll_past_end": true,
+	// Valid values are "smooth", "phase", "blink" and "solid". Previous
+	// versions of Sublime Text used "smooth" by default.
+	"caret_style": "smooth",
 
-    // Sets the colors used within the text area.
-    // The value "auto" will switch between the "light_color_scheme" and
-    // "dark_color_scheme" based on the operating system appearance.
-    "color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
+	// Sets the colors used within the text area.
+	// The value "auto" will switch between the "light_color_scheme" and
+	// "dark_color_scheme" based on the operating system appearance.
+	"color_scheme": "auto",
 
-    // Set to false to disable detection of tabs vs. spaces on load
-    "detect_indentation": true,
+	// Controls the "color_scheme" when set to "auto"
+	"dark_color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
 
-    // Set to true to ensure the last line of the file ends in a newline
-    // character when saving
-    "ensure_newline_at_eof_on_save": true,
+	// When drag_text is enabled, clicking on selected text will begin a
+	// drag-drop operation.
+	"drag_text": true,
 
-    // Note that the font_face and font_size are overridden in the platform
-    // specific settings file, for example, "Preferences (Linux).sublime-settings".
-    // Because of this, setting them here will have no effect: you must set them
-    // in your User File Preferences.
-    "font_face": "",
-    "font_size": 14,
+	// If true, the selected text will be copied into the find panel when it's
+	// shown.
+	// On Mac, this value is overridden in the platform specific settings.
+	"find_selected_text": true,
 
-    // Display file encoding in the status bar
-    "show_encoding": true,
+	// Note that the font_face and font_size are overridden in the platform
+	// specific settings file, for example, "Preferences (Linux).sublime-settings".
+	// Because of this, setting them here will have no effect: you must set them
+	// in your User File Preferences.
+	"font_face": "",
+	"font_size": 14,
 
-    // Display line endings in the status bar
-    "show_line_endings": true,
+	// Set to false to disable scrolling past the end of the buffer.
+	// On Mac, this value is overridden in the platform specific settings, so
+	// you'll need to place this line in your user settings to override it.
+	//
+	// This setting may also be set to a number between 0.0 and 1.0 to specify
+	// how much scrolling past the end of the buffer should be allowed. 0.5
+	// scrolls halfway and 0.0 is the same as false.
+	"scroll_past_end": true,
 
-    // When enabled, pressing tab will insert the best matching completion.
-    // When disabled, tab will only trigger snippets or insert a tab.
-    // Shift+tab can be used to insert an explicit tab when tab_completion is
-    // enabled.
-    "tab_completion": false,
+	// Display file encoding in the status bar
+	"show_encoding": true,
 
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
+	// Display line endings in the status bar
+	"show_line_endings": true,
 
-    // List any packages to ignore here. When removing entries from this list,
-    // a restart may be required if the package contains plugins.
-    "ignored_packages": ["Vintage"],
-    "theme": "auto",
-    "dark_theme": "Default Dark.sublime-theme",
-    "light_theme": "Default.sublime-theme",
+	// When enabled, pressing tab will insert the best matching completion.
+	// When disabled, tab will only trigger snippets or insert a tab.
+	// Shift+tab can be used to insert an explicit tab when tab_completion is
+	// enabled.
+	"tab_completion": false,
+
+	// The theme controls the look of Sublime Text's UI (buttons, tabs, scroll
+	// bars, etc)
+	// The value "auto" will switch between the "light_theme" and "dark_theme"
+	// based on the operating system appearance.
+	"theme": "auto",
+
+	// Controls the "theme" when to "auto"
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+
+	// Set to true to insert spaces when tab is pressed
+	"translate_tabs_to_spaces": false,
 }

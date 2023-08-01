@@ -1,0 +1,15 @@
+[
+	{ "keys": ["super+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
+	{ "keys": ["super+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
+	{ "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+	{ "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+	{ "keys": ["super+shift+e"], "command": "replace_next" },
+	{ "keys": ["super+g"], "command": "find_next" },
+	{ "keys": ["super+shift+g"], "command": "find_prev" },
+	{ "keys": [""], "command": "slurp_find_string" },
+	{ "keys": [""], "command": "slurp_replace_string" },
+
+	{ "keys": [""], "command": "show_panel", "args": {"panel": "find_in_files"} },
+	{ "keys": ["f4"], "command": "next_result" },
+	{ "keys": ["shift+f4"], "command": "prev_result" },
+]
