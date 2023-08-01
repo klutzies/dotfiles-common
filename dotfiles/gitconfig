@@ -1,11 +1,11 @@
 # This is Git's per-user configuration file.
 [user]
-    name = kate
-    email = kate@fennet.rentals
+    name = unilock
+    email = unilock@fennet.rentals
 
 [core]
     editor = subl -n -w
-	autocrlf = input
+    autocrlf = input
 
 [push]
 
@@ -50,4 +50,4 @@
     gc-all = gc --aggressive --prune
     fetch-lite = --update-shallow --depth 1
 [init]
-	defaultBranch = main
+    defaultBranch = main
