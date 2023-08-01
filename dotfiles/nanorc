@@ -1,0 +1,12 @@
+unbind M-1 all
+unbind M-2 all
+unbind M-b all
+unbind M-f all
+
+bind M-1 undo all
+bind M-2 redo all
+bind M-b prevword all
+bind M-f nextword all
+
+set tabsize 4
+set tabstospaces
