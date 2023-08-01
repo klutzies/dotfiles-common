@@ -18,60 +18,111 @@
     - Vencord: https://github.com/Vencord/Installer
         - AlwaysTrust
         - BetterGifAltText
+        - BiggerStreamPreview
         - BlurNSFW
             - BLUR: 10
         - ClearURLs
         - CrashHandler
-            - PREVENT CRASHES: Enabled
-            - NAVIGATE TO HOME: Disabled
+            - PREVENT CRASHES: true
+            - NAVIGATE TO HOME: false
         - EmoteCloner
         - Experiments
-            - ISSTAFF: Disabled
-            - STAGING BANNER: Disabled
+            - ISSTAFF: false
+            - STAGING BANNER: false
         - ForceOwnerCrown
         - FxTwitter
         - iLoveSpam
         - MemberCount
         - MessageClickActions
-            - DELETE: Disabled
-            - EDIT: Enabled
+            - DELETE: false
+            - EDIT: true
+            - REPLY: false
+            - MODIFIER: false
         - MessageLinkEmbeds
-            - BG COLOR: Disabled
-            - AUTOMOD EMBEDS: Never
+            - BG COLOR: false
+            - AUTOMOD EMBEDS: "Never"
+            - BLACKLIST OR WHITELIST: "Blacklist"
+            - ID LIST: (empty)
         - MessageLogger
             - STYLE: Red overlay
-            - IGNORE BOTS: Enabled
-            - IGNORE SELF: Enabled
+            - IGNORE BOTS: true
+            - IGNORE SELF: true
+            - USER IDS: (empty)
+            - CHANNEL IDS: (empty)
+            - GUILD IDS: (empty)
+        - MoreUserTags
+            - SHOW FOR BOTS: false
+            - SHOW BOT TAG: false
+            - WEBHOOK TAG:
+                - "Webhook"
+                - MESSAGES: true
+                - LIST / PROFILES: true
+            - OWNER TAG:
+                - "Owner"
+                - MESSAGES: true
+                - LIST / PROFILES: true
+            - ADMIN TAG:
+                - "Admin"
+                - MESSAGES: true
+                - LIST / PROFILES: true
+            - STAFF TAG:
+                - "Staff"
+                - MESSAGES: true
+                - LIST / PROFILES: true
+            - MOD TAG:
+                - "Mod"
+                - MESSAGES: true
+                - LIST / PROFILES: true
+            - VC MOD TAG:
+                - "VC Mod"
+                - MESSAGES: true
+                - LIST / PROFILES: true
         - MuteNewGuild
-        - NoCanaryMessageLinks
-            - SUBDOMAIN: (empty)
-            - USE DISCORD.COM: Enabled
+        - MutualGroupDMs
         - NoUnblockToJump
+        - PermissionsViewer
+            - SORT METHOD: "Highest role"
+            - DEFAULT STATE: false
+        - PinDMs
+            - ORDER: "Most recent message"
         - PlatformIndicators
-            - MEMBER LIST: Enabled
-            - USER PROFILES: Enabled
-            - MESSAGES: Enabled
-            - MOBILE MATCH STATUS: Enabled
+            - LIST: true
+            - BADGES: true
+            - MESSAGES: true
+            - COLOR INDICATOR: true
         - PronounDB
-            - FORMAT: Lowercase
-            - CURRENT USER: Enabled
-            - MESSAGES: Enabled
-            - PROFILE: Enabled
+            - FORMAT: "Lowercase"
+            - SOURCE: "Prefer PronounDB"
+            - SELF: true
+            - MESSAGES: true
+            - PROFILE: true
         - QuickMention
         - ReverseImageSearch
         - ShikiCodeblocks
-            - THEME: Monokai
-            - DISCORD HIGHLIGHTER: Prefer Shiki
-            - ICONS: Colorless
+            - THEME: "Monokai"
+            - CUSTOM THEME: (empty)
+            - DISCORD HIGHLIGHTER: "Prefer Shiki"
+            - ICONS: "Colorless"
             - OPACITY: 100%
         - SortFriendRequests
-            - SHOW DATES: Enabled
+            - SHOW DATES: true
+        - TextReplace
+            - REGEX:
+                - `https?://(www\.)?twitter\.com | https://fxtwitter.com | /status/`
+                - `https?://(canary|ptb)\.discord\.com/channels | https://discord.com/channels`
+                - `https?://(www\.)?curseforge\.com | https://legacy.curseforge.com`
         - TypingTweaks
-            - AVATARS: Enabled
-            - ROLE COLORS: Enabled
-            - SEVERAL USERS TYPING: Enabled
+            - AVATARS: true
+            - ROLE COLORS: true
+            - ALTERNATIVE FORMAT: true
+        - UnsuppressEmbeds
+        - ValidUser
+        - VencordToolbox
         - ViewIcons
+            - FORMAT: "webp"
+            - SIZE: 1024
         - ViewRaw
+            - BUTTON: "Left Click"
         - VoiceChatDoubleClick
         - VolumeBooster
             - MULTIPLIER: 2
@@ -80,6 +131,7 @@
 - IntelliJ prefs
 
 - Vivaldi: Should be synced for the most part, but IIRC there are some platform-specific settings - document in respecitve OS dotfiles as they're found
+
 
 
 - DuckDuckGo settings
