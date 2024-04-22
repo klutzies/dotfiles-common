@@ -8,5 +8,6 @@ bind M-2 redo all
 bind M-b prevword all
 bind M-f nextword all
 
+set nonewlines
 set tabsize 4
-set tabstospaces
+#set tabstospaces

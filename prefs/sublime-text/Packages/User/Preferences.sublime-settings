@@ -12,7 +12,7 @@
 	// Sets the colors used within the text area.
 	// The value "auto" will switch between the "light_color_scheme" and
 	// "dark_color_scheme" based on the operating system appearance.
-	"color_scheme": "auto",
+	"color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
 
 	// Controls the "color_scheme" when set to "auto"
 	"dark_color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
@@ -59,7 +59,7 @@
 	// bars, etc)
 	// The value "auto" will switch between the "light_theme" and "dark_theme"
 	// based on the operating system appearance.
-	"theme": "auto",
+	"theme": "Monokai Pro (Filter Spectrum).sublime-theme",
 
 	// Controls the "theme" when to "auto"
 	"dark_theme": "Default Dark.sublime-theme",
@@ -67,4 +67,9 @@
 
 	// Set to true to insert spaces when tab is pressed
 	"translate_tabs_to_spaces": false,
+
+	// Disables horizontal scrolling if enabled.
+	// May be set to true, false, or "auto", where it will be disabled for
+	// source code, and otherwise enabled.
+	"word_wrap": "false",
 }

@@ -20,6 +20,7 @@
     cm = commit -s -m
     co = checkout
     cp = cherry-pick -x
+    dns = diff --name-status
     ds = diff --staged
     g  = grep
     mb = merge -srecursive -Xpatience -Xtheirs --progress --signoff

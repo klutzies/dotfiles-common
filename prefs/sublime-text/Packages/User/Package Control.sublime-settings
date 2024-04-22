@@ -6,12 +6,15 @@
 	"installed_packages":
 	[
 		"FileDiffs",
+		"Hjson",
 		"HTMLBeautify",
 		"INI",
+		"Kotlin",
 		"Package Control",
 		"Pretty JSON",
 		"Theme - Monokai Pro",
 		"TOML",
 		"TrailingSpaces",
+		"ZenScript",
 	],
 }
