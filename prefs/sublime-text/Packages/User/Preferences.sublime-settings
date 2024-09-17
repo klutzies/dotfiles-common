@@ -32,7 +32,7 @@
 	// Because of this, setting them here will have no effect: you must set them
 	// in your User File Preferences.
 	"font_face": "",
-	"font_size": 14,
+	"font_size": 12,
 
 	// Set to false to disable scrolling past the end of the buffer.
 	// On Mac, this value is overridden in the platform specific settings, so
